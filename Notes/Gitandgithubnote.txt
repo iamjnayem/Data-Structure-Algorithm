@@ -1,0 +1,84 @@
+Git
+1..
+
+#1. open local reposatory /directory
+1. cd Desktop/>mkdir gitDemo>cd gitDemo>git init
+
+
+*1. tracing file in git(tracing means staging)
+
+1.process:  build somthing in working directory(creating file)>staging>commit>text editor >input
+
+1. command for creating file: touch filename.extention   example: touch first.txt 
+2. Command for staging: git add filename.extention, example: git add first.txt
+3. command for commit: git commit>git config --global user.email "you@example.com"
+  >git config --global user.name "Your Name">git commit>i>:x>git log
+  or 
+  3.2 without text editor : git commit -m "we have added another line "
+  
+*2. see status
+1. command : git status
+
+*3. Adding changes to file
+process: add changes to file>staging>commit
+
+*4. See how many commited
+command : git log    or  git log --oneline
+
+5. see specific file detail
+command: git log --oneline>git show 61b2f3a
+
+6. to see difference of change
+command: git diff   , for multiple difference comperisn : git diff 61b2f3a ub86yf3n
+  1. to see difference of change while staging
+  command: git diff --staged
+  
+7. delete file but stays in staging
+command : git rm filename.extention
+
+8. unstage deleted file
+command: git reset HEAD filename.extention
+
+9. get back to previous vertion of commit
+command : git checkout commitedid comimitedfile.file extention  , git checkout cd6736d first.txt
+
+
+github
+
+10. how to clone git reposatory
+command: git clone gitreposatorylink  
+example: git clone https://github.com/TanvirRezaNafi/git-tutorial.git
+
+11. how to add different name to git reposatory 
+command: git clone gitreposatorylink reposatory name
+example : git clone https://github.com/TanvirRezaNafi/git-tutorial.git  myreposatory
+
+12. how to open file in vs code
+command: code .
+
+13. how top push code in github
+command : git push -u origin main
+
+#git Branch 
+
+14. how to check how many branches are there in a reposatory
+command: git branch
+
+15. how to create a new branch
+command: git branch branchname
+
+16. how to go from one branch to another branch
+command: git checkout branchname
+
+17. how to merge git branch
+process: go to main branch>merge branch
+command: git merge branchname
+
+18. how to checkout and create a branch swith one command
+command: git checkout -b branchname
+
+19. how to use fork and clone repository and create branch
+process: use frok option>copy clone link>create local reposatory>create branch
+
+20. how to create pull request
+process: from fork clone repo >push code in github >create pull request option> create new pull>
