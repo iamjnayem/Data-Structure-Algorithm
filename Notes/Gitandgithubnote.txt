@@ -43,7 +43,7 @@ command: git reset HEAD filename.extention
 command : git checkout commitedid comimitedfile.file extention  , git checkout cd6736d first.txt
 
 
-github
+#github
 
 10. how to clone git reposatory
 command: git clone gitreposatorylink  
@@ -77,8 +77,5 @@ command: git merge branchname
 18. how to checkout and create a branch swith one command
 command: git checkout -b branchname
 
-19. how to use fork and clone repository and create branch
-process: use frok option>copy clone link>create local reposatory>create branch
-
-20. how to create pull request
-process: from fork clone repo >push code in github >create pull request option> create new pull>
+19. how to use git fork and clone repository
+process: gitfork>copy repo clone link>create new brench
