@@ -79,3 +79,5 @@ command: git checkout -b branchname
 
 19. how to use git fork and clone repository
 process: gitfork>copy repo clone link>create new brench
+20. how to commit proper way
+command: i>write commit>esc button>:wq
